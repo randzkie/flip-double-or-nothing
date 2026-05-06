@@ -363,7 +363,7 @@ export function CoinFlipGame() {
                           : "border border-gray-300 text-gray-500 bg-white/50 backdrop-blur-sm hover:border-gray-400 hover:text-gray-700"
                       }`}
                     >
-                      🐱 HEADS
+                       HEADS
                     </button>
                     <button
                       onClick={() => setSelectedSide("tails")}
@@ -374,7 +374,7 @@ export function CoinFlipGame() {
                           : "border border-gray-300 text-gray-500 bg-white/50 backdrop-blur-sm hover:border-gray-400 hover:text-gray-700"
                       }`}
                     >
-                      🔮 TAILS
+                       TAILS
                     </button>
                   </div>
                 </div>
