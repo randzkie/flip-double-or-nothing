@@ -159,8 +159,8 @@ export function CoinFlipGame() {
         className="fixed inset-0 pointer-events-none"
         style={{
           backgroundImage: "url(/bg-pattern.png)",
-          backgroundRepeat: "repeat",
-          backgroundSize: "750px 520px",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       />
 
@@ -208,10 +208,10 @@ export function CoinFlipGame() {
                 <div className="text-6xl mb-4">🪙</div>
                 <h2 className="text-3xl sm:text-4xl font-bold">
                   <span className="text-emerald-600">Ritual</span>
-                  <span className="text-gray-900"> CoinFlip</span>
+                  <span className="text-gray-900"> Double or Nothing</span>
                 </h2>
                 <p className="text-gray-600 max-w-md">
-                  Double or nothing. Pick your side, place your bet, and flip
+                  Pick your side, place your bet, and flip
                   the coin on Ritual Chain.
                 </p>
               </div>
@@ -477,7 +477,7 @@ export function CoinFlipGame() {
 
         {/* Footer */}
         <footer className="text-center py-4 text-xs text-gray-400 border-t border-gray-200/50">
-          Built on <span className="text-emerald-600">Ritual Chain</span> (1979) | Double or Nothing | 30% Win Rate
+          Built on <span className="text-emerald-600">Ritual Chain</span> (1979) | Double or Nothing | 60% Win Rate
         </footer>
       </div>
     </div>
