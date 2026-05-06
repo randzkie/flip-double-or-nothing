@@ -1,4 +1,4 @@
-export const COINFLIP_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "0x7c9ba25Ed42953201622018ac3f3ffD9a6a9355C") as `0x${string}`;
+export const COINFLIP_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "0x7523671221eC2E3D37334B24F0d7b0b04E304f13") as `0x${string}`;
 
 export const COINFLIP_ABI = [
   {
