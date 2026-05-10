@@ -1,6 +1,6 @@
 # 🪙 Ritual CoinFlip — Web3 Betting Game
 
-A double-or-nothing coin flip betting game built on **Ritual Chain** (testnet, Chain ID 1979). Pick your side — **🐱 Heads (Cat)** or **🔮 Tails (Ritual Logo)** — place your bet, and flip to win 2x your wager.
+A double-or-nothing coin flip betting game built on **Ritual Chain** (testnet, Chain ID 1979). Pick your side — ** Heads (Cat)** or ** Tails (Ritual Logo)** — place your bet, and flip to win 2x your wager.
 
 ![Ritual CoinFlip](https://img.shields.io/badge/Chain-Ritual_1979-purple) ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-blue) ![Next.js](https://img.shields.io/badge/Next.js-16-black) ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -32,8 +32,8 @@ A double-or-nothing coin flip betting game built on **Ritual Chain** (testnet, C
 | **Min Bet** | 0.001 RITUAL |
 | **Max Bet** | 0.005 RITUAL |
 | **Currency** | RITUAL (native token on Chain 1979) |
-| **Heads** | 🐱 Cat (pixel art) |
-| **Tails** | 🔮 Ritual Logo (endless knot) |
+| **Heads** |  Cat (pixel art) |
+| **Tails** |  Ritual Logo (endless knot) |
 
 **How it works:** You pick HEADS or TAILS and bet an amount of RITUAL. The contract generates a random outcome — with a 30% probability, you win and receive **2x your bet**. With 70% probability, you lose and your bet stays in the contract.
 
@@ -276,7 +276,7 @@ Go to **Project Settings → Environment Variables** and add:
 
 1. **Connect Wallet** — Click "Connect Wallet" and select your wallet provider
 2. **Set Username** — Enter a display name (1-20 characters), stored on-chain
-3. **Pick Your Side** — Choose 🐱 HEADS or 🔮 TAILS
+3. **Pick Your Side** — Choose  HEADS or  TAILS
 4. **Set Bet Amount** — Choose between 0.001 and 0.005 RITUAL
 5. **Flip!** — Click "BET X RITUAL" and watch the coin spin
 6. **Result** — Win (2x payout!) or lose (bet goes to the house)

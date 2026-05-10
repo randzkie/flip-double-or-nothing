@@ -175,7 +175,7 @@ export function CoinFlipGame() {
             <div>
               <h1 className="text-lg font-bold">
                 <span className="text-emerald-600">Ritual</span>
-                <span className="text-gray-900"> CoinFlip</span>
+                <span className="text-gray-900"> Flip</span>
               </h1>
             </div>
           </div>
@@ -205,10 +205,10 @@ export function CoinFlipGame() {
           {phase === "connect" && (
             <div className="flex flex-col items-center gap-8 animate-fade-in">
               <div className="text-center space-y-4">
-                <div className="text-6xl mb-4">🪙</div>
+                <div className="text-6xl mb-4"></div>
                 <h2 className="text-3xl sm:text-4xl font-bold">
                   <span className="text-emerald-600">Ritual</span>
-                  <span className="text-gray-900"> Double or Nothing</span>
+                  <span className="text-gray-900">Flip</span>
                 </h2>
                 <p className="text-gray-600 max-w-md">
                   Pick your side, place your bet, and flip
@@ -218,7 +218,7 @@ export function CoinFlipGame() {
               <ConnectWallet />
               <div className="flex gap-8 text-center text-sm text-gray-500">
                 <div>
-                  <div className="text-lg font-bold text-emerald-600">30%</div>
+                  <div className="text-lg font-bold text-emerald-600">60%</div>
                   <div>Win Rate</div>
                 </div>
                 <div>
@@ -325,7 +325,7 @@ export function CoinFlipGame() {
                   ) : (
                     <>
                       <Skull className="h-4 w-4 shrink-0" />
-                      <span>YOU LOST. Coin landed {lastResult.coinLanded.toUpperCase()}</span>
+                      <span>YOU LOST . Coin landed {lastResult.coinLanded.toUpperCase()}</span>
                     </>
                   )}
                 </div>

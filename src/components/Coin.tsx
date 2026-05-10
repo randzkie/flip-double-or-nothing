@@ -96,7 +96,7 @@ export function Coin({
                 : "bg-red-500 text-white"
             }`}
           >
-            {result === "heads" ? "🐱 HEADS" : "🔮 TAILS"}
+            {result === "heads" ? " HEADS" : " TAILS"}
           </div>
         )}
       </div>
