@@ -175,7 +175,7 @@ export function CoinFlipGame() {
             <div>
               <h1 className="text-lg font-bold">
                 <span className="text-emerald-600">Ritual</span>
-                <span className="text-gray-900"> Flip</span>
+                <span className="text-gray-900"> Flip Arena</span>
               </h1>
             </div>
           </div>
@@ -208,7 +208,7 @@ export function CoinFlipGame() {
                 <div className="text-6xl mb-4"></div>
                 <h2 className="text-3xl sm:text-4xl font-bold">
                   <span className="text-emerald-600">Ritual</span>
-                  <span className="text-gray-900">Flip</span>
+                  <span className="text-gray-900">Flip Arena</span>
                 </h2>
                 <p className="text-gray-600 max-w-md">
                   Pick your side, place your bet, and flip

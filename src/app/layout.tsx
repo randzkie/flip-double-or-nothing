@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ritual Flip - Web3 Betting Game",
+  title: "Ritual Flip Arena - Web3 Betting Game",
   description:
     "Double or nothing coin flip game on Ritual Chain. Pick heads (cat) or tails (ritual), bet RITUAL tokens, and flip to win 2x!",
   keywords: [
